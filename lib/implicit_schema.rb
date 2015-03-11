@@ -1,3 +1,5 @@
+# Wraps a Hash object, and raises ImplicitSchema::ValidationError when #[] is
+# called with a missing key
 class ImplicitSchema < BasicObject
   ValidationError = ::Class.new(::RuntimeError)
 
