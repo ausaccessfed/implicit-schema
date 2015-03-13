@@ -16,7 +16,7 @@
 [BS img]: https://img.shields.io/travis/ausaccessfed/implicit-schema/develop.svg
 [DS img]: https://img.shields.io/gemnasium/ausaccessfed/implicit-schema.svg
 [CC img]: https://img.shields.io/codeclimate/github/ausaccessfed/implicit-schema.svg
-[CS img]: https://img.shields.io/coveralls/ausaccessfed/implicit-schema.svg
+[CS img]: https://img.shields.io/coveralls/ausaccessfed/implicit-schema/develop.svg
 
 Lazily and implicitly validate Hash objects (e.g. from JSON::parse)
 
