@@ -1,0 +1,1 @@
+require 'implicit_schema'
