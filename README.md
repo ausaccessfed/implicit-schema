@@ -4,21 +4,20 @@
 [![Build Status][BS img]][Build Status]
 [![Dependency Status][DS img]][Dependency Status]
 [![Code Climate][CC img]][Code Climate]
-[![Coverage Status][CS img]][Coverage Status]
+[![Coverage Status][CS img]][Code Climate]
 
 [Gem Version]: https://rubygems.org/gems/implicit-schema
-[Build Status]: https://travis-ci.org/ausaccessfed/implicit-schema
+[Build Status]: https://codeship.com/projects/91214
 [Dependency Status]: https://gemnasium.com/ausaccessfed/implicit-schema
 [Code Climate]: https://codeclimate.com/github/ausaccessfed/implicit-schema
-[Coverage Status]: https://coveralls.io/r/ausaccessfed/implicit-schema
 
 [GV img]: https://img.shields.io/gem/v/implicit-schema.svg
-[BS img]: https://img.shields.io/travis/ausaccessfed/implicit-schema/develop.svg
-[DS img]: https://img.shields.io/gemnasium/ausaccessfed/implicit-schema.svg
+[BS img]: https://img.shields.io/codeship/e9441d30-0cd1-0133-3ae6-7aae0ba3591b/develop.svg
+[DS img]: https://img.shields.io/gemnasium/ausaccessfed/implicit-schema/develop.svg
 [CC img]: https://img.shields.io/codeclimate/github/ausaccessfed/implicit-schema.svg
-[CS img]: https://img.shields.io/coveralls/ausaccessfed/implicit-schema/develop.svg
+[CS img]: https://img.shields.io/codeclimate/coverage/github/ausaccessfed/implicit-schema.svg
 
-Lazily and implicitly validate Hash objects (e.g. from JSON::parse)
+Lazily and implicitly validate Hash objects (e.g. from `JSON::parse`)
 
 Author: Shaun Mangelsdorf
 
