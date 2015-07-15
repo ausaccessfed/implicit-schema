@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/ausaccessfed/implicit-schema'
   spec.license  = 'Apache-2.0'
 
-  spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(/^spec\//) }
+  spec.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^spec/}) }
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.8'
